@@ -4,6 +4,7 @@ import android.content.Context
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.ImageButton
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
@@ -19,6 +20,7 @@ class FavoritoAdapter (private val context: Context, private var movies: Mutable
         private lateinit var listoverview: TextView
         private lateinit var listpopularity: TextView
         private lateinit var  imagen: ImageView
+        private lateinit var btn_favorite: ImageButton
 
         fun bindto(movie: Movie){
             listtitle = itemView.findViewById(R.id.tvlist_names_movies)

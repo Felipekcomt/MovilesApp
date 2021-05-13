@@ -10,7 +10,7 @@
         android:id="@+id/gotoPopular"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Popular"
+        android:text="Favorito"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
@@ -18,14 +18,14 @@
         android:id="@+id/gotoFavorito"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Favoritos"
+        android:text="Popular"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="411dp"
-        android:layout_height="254dp"
+        android:layout_height="match_parent"
         app:layout_constraintBottom_toTopOf="@+id/button2"
         app:layout_constraintTop_toTopOf="parent"
         tools:layout_editor_absoluteX="0dp"

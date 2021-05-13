@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.xtrememovieapp">
+
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-
 
     <application
         android:allowBackup="true"
@@ -12,7 +12,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.XtremeMovieApp">
-        <activity android:name=".ItemsMoviesActivity"></activity>
+        <activity
+            android:name=".iu.PopularActivity"
+            android:label="@string/title_activity_popular"
+            android:theme="@style/Theme.XtremeMovieApp.NoActionBar"></activity>
+        <activity android:name=".ItemsMoviesActivity" />
         <activity android:name=".items_movies" />
         <activity android:name=".iu.FavoritoActivity" />
         <activity android:name=".FavoritosActiviry" />
